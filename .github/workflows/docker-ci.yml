@@ -33,12 +33,11 @@ jobs:
         run: |
           flake8 .
 
-      # Your existing Docker build & push steps follow here
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.Harshad03-GN}}
-          password: ${{ secrets.Harshad03-GN}}
+          username: ${{ secrets.harshad1207}}
+          password: ${{ secrets.qzwxec1324!@#$HARSH}}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
